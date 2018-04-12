@@ -12,7 +12,7 @@ public class HelloWorldMainApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(HelloWorldMainApplication.class);
+        SpringApplication.run(HelloWorldMainApplication.class,args);
 
 
     }
