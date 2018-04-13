@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+    <h1>asdasd</h1>
+    <div  th:text="${hello}">
+        这是显示欢迎信息
+    </div>
+    <hr/>
+    <div th:utext="${hello}"></div>
+    <table>
+        <tr th:each="user:${users}">
+            <td>[[${user}]]</td>
+        </tr>
+    </table>
+</body>
+</html>
