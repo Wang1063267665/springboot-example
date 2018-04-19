@@ -9,7 +9,15 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot-01-helloworld</module>
+        <module>springboot-02-autoconfig</module>
+        <module>springboot-03-logging</module>
+        <module>springboot-04-web-jsp</module>
+        <module>springboot-04-web-restfulcrud</module>
+        <module>springboot-06-data-jdbc</module>
+        <module>springboot-07-data-jpa</module>
+        <module>srpingboot-07-data-mybatis</module>
     </modules>
+    
     <packaging>pom</packaging>
 
 
