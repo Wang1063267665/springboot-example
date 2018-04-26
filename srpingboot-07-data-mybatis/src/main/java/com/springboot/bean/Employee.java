@@ -48,4 +48,16 @@ public class Employee {
     public void setdId(Integer dId) {
         this.dId = dId;
     }
+
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", lastName='" + lastName + '\'' +
+                ", gender=" + gender +
+                ", email='" + email + '\'' +
+                ", dId=" + dId +
+                '}';
+    }
 }
