@@ -1,0 +1,47 @@
+package com.springboot.bean;
+
+/**
+ * @author WangLu
+ * @Title: springboot-example
+ * @Package com.springboot.bean
+ * @Description: TODO
+ * @date 2018/5/17 16:47
+ */
+public class Book {
+
+    private String bookName;
+    private String author;
+
+
+    public Book() {
+    }
+
+    public Book(String bookName, String author) {
+        this.bookName = bookName;
+        this.author = author;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookName='" + bookName + '\'' +
+                ", author='" + author + '\'' +
+                '}';
+    }
+}
