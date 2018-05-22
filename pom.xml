@@ -16,6 +16,9 @@
         <module>springboot-06-data-jdbc</module>
         <module>springboot-07-data-jpa</module>
         <module>srpingboot-07-data-mybatis</module>
+        <module>springboot-08-cache</module>
+        <module>springboot-09-amqp</module>
+        <module>srpingboot-10-elastic</module>
     </modules>
     
     <packaging>pom</packaging>
