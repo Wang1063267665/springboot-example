@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 /**
  * 开启异步注解功能
  */
-@EnableAsync
+//@EnableAsync
 /**
  * 基于注解的定时任务
  */
